@@ -1,0 +1,17 @@
+/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/bin/Debug/netcoreapp3.1/backend.deps.json
+/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/bin/Debug/netcoreapp3.1/backend.runtimeconfig.json
+/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/bin/Debug/netcoreapp3.1/backend.runtimeconfig.dev.json
+/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/bin/Debug/netcoreapp3.1/backend.dll
+/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/bin/Debug/netcoreapp3.1/backend.pdb
+/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/obj/Debug/netcoreapp3.1/backend.csprojAssemblyReference.cache
+/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/obj/Debug/netcoreapp3.1/backend.MvcApplicationPartsAssemblyInfo.cache
+/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/obj/Debug/netcoreapp3.1/backend.AssemblyInfoInputs.cache
+/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/obj/Debug/netcoreapp3.1/backend.AssemblyInfo.cs
+/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/obj/Debug/netcoreapp3.1/backend.RazorTargetAssemblyInfo.cache
+/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/obj/Debug/netcoreapp3.1/staticwebassets/backend.StaticWebAssets.Manifest.cache
+/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/obj/Debug/netcoreapp3.1/staticwebassets/backend.StaticWebAssets.xml
+/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/obj/Debug/netcoreapp3.1/backend.dll
+/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/obj/Debug/netcoreapp3.1/backend.pdb
