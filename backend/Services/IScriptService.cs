@@ -5,6 +5,6 @@ namespace backend.Services
 {
     public interface IScriptService
     {
-        bool callScript { get; }
+        string Bash(string cmd);
     }
 }

@@ -1,5 +1,9 @@
-echo 'IM RUNNING'
-echo '$0 = ' $0
-echo '$1 = ' $1
-echo '$2 = ' $2
-echo '$3 = ' $3
+echo "IIC Driver Running Cmd = { $1 }"
+
+if [ "$1" = "ON" ]; then 
+    echo "Turning On" 
+elif [ "$1" = "OFF" ]; then
+    echo "Turning Off"
+else
+    echo "Cmd = { $1 } not recognized."  
+fi;

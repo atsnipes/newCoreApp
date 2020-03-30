@@ -1,6 +1,10 @@
-﻿using backend.Services;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using backend.Services;
 
 namespace backend.Controllers
 {
@@ -21,18 +25,11 @@ namespace backend.Controllers
         }
 
         [HttpGet]
-        public ActionResult Get()
+        public ActionResult Get(string cmd)
         {
-            var result = new ScriptService().callScript;
+            cmd = $"./Scripts/iicDriver.sh {cmd}";
+            var result = new ScriptService().Bash(cmd);
             return Ok(result);
-            // var rng = new Random();
-            // return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            // {
-            //     Date = DateTime.Now.AddDays(index),
-            //     TemperatureC = rng.Next(-20, 55),
-            //     Summary = Summaries[rng.Next(Summaries.Length)]
-            // })
-            // .ToArray();
         }
     }
 }

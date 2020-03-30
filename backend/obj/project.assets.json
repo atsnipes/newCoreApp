@@ -1,35 +1,35 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "/Users/aaron.snipes/.nuget/packages/": {}
+    "/home/pi/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/backend.csproj",
+      "projectUniqueName": "/home/pi/Code/newCoreApp/backend/backend.csproj",
       "projectName": "backend",
-      "projectPath": "/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/backend.csproj",
-      "packagesPath": "/Users/aaron.snipes/.nuget/packages/",
-      "outputPath": "/Users/aaron.snipes/Code/newCoreApp/newCoreApp/backend/obj/",
+      "projectPath": "/home/pi/Code/newCoreApp/backend/backend.csproj",
+      "packagesPath": "/home/pi/.nuget/packages/",
+      "outputPath": "/home/pi/Code/newCoreApp/backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/aaron.snipes/.nuget/NuGet/NuGet.Config"
+        "/home/pi/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "netcoreapp3.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp3.0": {
           "projectReferences": {}
         }
       },
@@ -40,7 +40,7 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "netcoreapp3.0": {
         "imports": [
           "net461",
           "net462",
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/pi/dotnet-arm32/sdk/3.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
