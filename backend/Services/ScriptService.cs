@@ -5,8 +5,6 @@ namespace backend.Services
 {
     public class ScriptService : IScriptService
     {
-        //private static string _scriptDir = @"..\Scripts\iicDriver.sh";
-
         public string Bash(string cmd)
         {
             var escapedArgs = cmd.Replace("\"", "\\\"");

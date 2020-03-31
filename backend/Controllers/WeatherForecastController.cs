@@ -31,5 +31,13 @@ namespace backend.Controllers
             var result = new ScriptService().Bash(cmd);
             return Ok(result);
         }
+
+        [HttpGet(Route("hi"))]
+        public ActionResult Gets(string cmd)
+        {
+            cmd = $"./Scripts/iicDriver.sh {cmd}";
+            var result = new ScriptService().Bash(cmd);
+            return Ok(result);
+        }
     }
 }
